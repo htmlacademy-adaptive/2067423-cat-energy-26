@@ -14,13 +14,13 @@
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <ul class="main-nav__list site-list">
         <li class="site-list__item site-list__item--current">
-          <a>главная</a>
+          <a class="site-list__link" href="#">Главная</a>
         </li>
         <li class="site-list__item">
-          <a>каталог продукции</a>
+          <a class="site-list__link" href="#">Каталог продукции</a>
         </li>
         <li class="site-list__item">
-          <a>подбор программы</a>
+          <a class="site-list__link" href="#">Подбор программы</a>
         </li>
       </ul>
     </nav>
@@ -36,93 +36,121 @@
         <li class="catalog__item card-product">
           <img class="card-product__image" src="/source/img/desktop/catalog/catalog-small-chicken.png" alt="product">
           <p class="card-product__title">Cat Energy PRO 500 г</p>
-          <dl class="card-product__parameters">
-          <dt class="card-product__name">Масса</dt>
-          <dd class="card-product__value">500г</dd>
-          <dt class="card-product__name">Вкус</dt>
-          <dd class="card-product__value">Курица</dd>
-          <dt class="card-product__name">Цена</dt>
-          <dd class="card-product__value">700 Р.</dd>
-          </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <table class="card-product__parameters">
+            <tr class="card-product__parameters-title">
+              <th class="card-product__name">Масса</th>
+              <th class="card-product__name">Вкус</th>
+              <th class="card-product__name">Цена</th>
+            </tr>
+            <tr class="card-product__parameters-value">
+              <td class="card-product__value">500 г</td>
+              <td class="card-product__value">Курица</td>
+              <td class="card-product__value">700 Р.</td>
+            </tr>
+          </table>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog__item card-product">
           <img class="card-product__image" src="/source/img/desktop/catalog/catalog-chicken.png" alt="product">
           <p class="card-product__title">Cat Energy PRO1000 г</p>
-          <dl class="card-product__parameters">
-          <dt class="card-product__name">Масса</dt>
-          <dd class="card-product__value">100г</dd>
-          <dt class="card-product__name">Вкус</dt>
-          <dd class="card-product__value">Курица</dd>
-          <dt class="card-product__name">Цена</dt>
-          <dd class="card-product__value">1000 Р.</dd>
-          </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <table class="card-product__parameters">
+          <tr class="card-product__parameters-title">
+            <th class="card-product__name">Масса</th>
+            <th class="card-product__name">Вкус</th>
+            <th class="card-product__name">Цена</th>
+          </tr>
+          <tr class="card-product__parameters-value">\
+            <td class="card-product__value">1000 г</td>
+            <td class="card-product__value">Курица</td>
+            <td class="card-product__value">1000 Р.</td>
+          </tr>
+          </table>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog__item card-product">
           <img class="card-product__image" src="/source/img/desktop/catalog/catalog-small-fish.png" alt="product">
           <p class="card-product__title">Cat Energy PRO 500 г</p>
-          <dl class="card-product__parameters">
-          <dt class="card-product__name">Масса</dt>
-          <dd class="card-product__value">500г</dd>
-          <dt class="card-product__name">Вкус</dt>
-          <dd class="card-product__value">Рыба</dd>
-          <dt class="card-product__name">Цена</dt>
-          <dd class="card-product__value">700 Р.</dd>
-          </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <table class="card-product__parameters">
+          <tr class="card-product__parameters-title">
+            <th class="card-product__name">Масса</th>
+            <th class="card-product__name">Вкус</th>
+            <th class="card-product__name">Цена</th>
+          </tr>
+          <tr class="card-product__parameters-value">\
+            <td class="card-product__value">500 г</td>
+            <td class="card-product__value">Рыба</td>
+            <td class="card-product__value">700 Р.</td>
+          </tr>
+          </table>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog__item card-product">
           <img class="card-product__image" src="/source/img/desktop/catalog/catalog-fish.png" alt="product">
-          <p class="card-product__title">Cat Energy PRO 1000 г</p>
-          <dl class="card-product__parameters">
-          <dt class="card-product__name">Масса</dt>
-          <dd class="card-product__value">1000г</dd>
-          <dt class="card-product__name">Вкус</dt>
-          <dd class="card-product__value">Рыба</dd>
-          <dt class="card-product__name">Цена</dt>
-          <dd class="card-product__value">1000 Р.</dd>
-          </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <p class="card-product__title">Cat Energy PRO1000 г</p>
+          <table class="card-product__parameters">
+          <tr class="card-product__parameters-title">
+            <th class="card-product__name">Масса</th>
+            <th class="card-product__name">Вкус</th>
+            <th class="card-product__name">Цена</th>
+          </tr>
+          <tr class="card-product__parameters-value">\
+            <td class="card-product__value">1000 г</td>
+            <td class="card-product__value">Рыба</td>
+            <td class="card-product__value">1000 Р.</td>
+          </tr>
+          </table>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog__item card-product">
           <img class="card-product__image" src="/source/img/desktop/catalog/catalog-small-buckwheat.png" alt="product">
           <p class="card-product__title">Cat Energy slim 500 г</p>
-          <dl class="card-product__parameters">
-          <dt class="card-product__name">Масса</dt>
-          <dd class="card-product__value">500г</dd>
-          <dt class="card-product__name">Вкус</dt>
-          <dd class="card-product__value">Гречка</dd>
-          <dt class="card-product__name">Цена</dt>
-          <dd class="card-product__value">500 Р.</dd>
-          </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <table class="card-product__parameters">
+          <tr class="card-product__parameters-title">
+            <th class="card-product__name">Масса</th>
+            <th class="card-product__name">Вкус</th>
+            <th class="card-product__name">Цена</th>
+          </tr>
+          <tr class="card-product__parameters-value">\
+            <td class="card-product__value">500 г</td>
+            <td class="card-product__value">Гречка</td>
+            <td class="card-product__value">400 Р.</td>
+          </tr>
+          </table>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog__item card-product">
           <img class="card-product__image" src="/source/img/desktop/catalog/catalog-buckwheat.png" alt="product">
           <p class="card-product__title">Cat Energy slim 1000 г</p>
-          <dl class="card-product__parameters">
-            <dt class="card-product__name">Масса</dt>
-            <dd class="card-product__value">1000 г</dd>
-            <dt class="card-product__name">Вкус</dt>
-            <dd class="card-product__value">Гречка</dd>
-            <dt class="card-product__name">Цена</dt>
-            <dd class="card-product__value">700 Р.</dd>
-          </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <table class="card-product__parameters">
+            <tr class="card-product__parameters-title">
+              <th class="card-product__name">Масса</th>
+              <th class="card-product__name">Вкус</th>
+              <th class="card-product__name">Цена</th>
+            </tr>
+            <tr class="card-product__parameters-value">\
+              <td class="card-product__value">1000 г</td>
+              <td class="card-product__value">Гречка</td>
+              <td class="card-product__value">700 Р.</td>
+            </tr>
+          </table>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog__item card-product">
           <img class="card-product__image" src="/source/img/desktop/catalog/catalog-rise.png" alt="product">
           <p class="card-product__title">Cat Energy slim 500 г</p>
-          <dl class="card-product__parameters">
-          <dd class="card-product__name">Масса</dt>
-          <dt class="card-product__value">500г</dd>
-          <dt class="card-product__name">Вкус</dt>
-          <dd class="card-product__value">Рис</dd>
-          <dd class="card-product__name">Цена</dd>
-          <dt class="card-product__value">500 Р.</dt>
-          </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <table class="card-product__parameters">
+          <tr class="card-product__parameters-title">
+            <th class="card-product__name">Масса</th>
+            <th class="card-product__name">Вкус</th>
+            <th class="card-product__name">Цена</th>
+          </tr>
+          <tr class="card-product__parameters-value">\
+            <td class="card-product__value">500 г</td>
+            <td class="card-product__value">Рис</td>
+            <td class="card-product__value">500 Р.</td>
+          </tr>
+          </table>
+          <a class="card-product__button button" href="#">Заказать</a>
         </li>
         <li class="catalog__item card-product card-show-more">
           <img class="card-product__image" src="/source/img/desktop/catalog/plus.png" alt="показать еще">
@@ -130,11 +158,14 @@
             100500 товаров</p>
           <p class="card-product__description">На самом деле вкусов
             гораздо больше!</p>
-          <a class="card-product__button button-buy" href="#">показать все</a>
+          <a class="card-product__button button" href="#">Показать все</a>
         </li>
       </ul>
     </section>
-    <section class="catalog-additionally">
+    <section class="catalog-additionally hero">
+    <h2 class=hero__title>
+      Дополнительные товары
+    </h2>
       <ul class="catalog-additionally__list">
         <li class="catalog-additionally__item additional-item">
           <h3 class="additional-item__title">Сахарозаменитель</h3>
@@ -142,7 +173,7 @@
             <dt class="additional-item__value">1 упаковка (100 г)</dt>
             <dd clsaa="additional-item__price">200 Р.</dd>
           </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog-additionally__item additional-item">
           <h3 class="additional-item__title">Питьевая вода</h3>
@@ -150,23 +181,23 @@
             <dt class="additional-item__value">5 литров</dt>
             <dd clsaa="additional-item__price">50 Р.</dd>
           </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog-additionally__item additional-item">
-          <h3 class="additional-item__title">молоко</h3>
+          <h3 class="additional-item__title">Молоко</h3>
           <dl class="additional-item__parameters">
             <dt class="additional-item__value">1 литр</dt>
             <dd clsaa="additional-item__price">100 Р.</dd>
           </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
         <li class="catalog-additionally__item additional-item">
-          <h3 class="additional-item__title">витамины</h3>
+          <h3 class="additional-item__title">Витамины</h3>
           <dl class="additional-item__parameters">
             <dt class="additional-item__value">1 упаковка (30 г)</dt>
             <dd clsaa="additional-item__price">300 Р.</dd>
           </dl>
-          <a class="card-product__button button-buy" href="#">заказать</a>
+          <a class="card-product__button button-buy" href="#">Заказать</a>
         </li>
       </ul>
       <article class="catalog-additionally__gift raffle">
@@ -181,7 +212,7 @@
     <section class="contacts">
       <h2 class="visually-hidden">Контактная информация</h2>
       <div class="contacts__contacts-info wrapper-contacts">
-        <p class="wrapper-contacts__intro">приглашаем
+        <p class="wrapper-contacts__intro">Приглашаем
           к сотрудничеству
           дилеров!</p>
         <p class="wrapper-contacts__adress-street">ул. Большая
